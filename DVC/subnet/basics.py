@@ -6,8 +6,8 @@ from datetime import datetime
 import math
 import time
 # from .resample2d_package.resample2d import Resample2d
-from six.moves import xrange
-import tensorflow as tf
+# from six.moves import xrange
+# import tensorflow as tf
 import numpy as np
 import torch.nn as nn
 import torch
@@ -54,7 +54,6 @@ def relu(x):
 #     # return tf.nn.sigmoid(x,name='relu')
 
 
-from tensorflow.contrib.layers.python.layers import batch_norm as batch_norm
 
 
 def yuv_import_444(filename, dims, numfrm, startfrm):
